@@ -1,0 +1,25 @@
+{
+  "name": "images-from-cloud",
+  "version": "1.0.0",
+  "description": "Gen images from a cloud service",
+  "main": "src/index.js",
+  "repository": "https://github.com/neoroma/images-from-cloud.git",
+  "author": "Romanshe",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "go": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cloudinary-core": "^2.8.2",
+    "dotenv": "^8.2.0",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
